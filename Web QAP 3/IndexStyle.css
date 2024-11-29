@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.mainbox {
+    width: 1000px;
+    background-color: white;
+    margin: auto;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.graybar {
+    width: 1000px;
+    height: 40px;
+    background-color: gray;
+}
+
+.whitetext {
+    color: white;
+}
+
+header h1{
+    padding-top: 4px;
+    margin: 0;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.sectiononebox{
+    width: 1000px;
+    height: 550px;
+    background-color: white;
+    margin: auto;
+    padding: 24px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.mainsmallboxs {
+    width: 115px;
+    height: 150px;
+    background-color: darkblue;
+    border: solid white 1px;
+    margin: 2px;
+    float: left;  
+}
+
+#aligntext {
+    color: white;
+    display:flex;
+    align-items: flex-end;
+    text-align: flex-start;
+    padding-left: 6px;
+    padding-bottom: 6px;
+    font-size: 18pt;
+}
+
+#backroundwhite {
+    background-color: white;
+}
+
+.sectiontwobox{
+    width: 1000px;
+    height: 240px;
+    background-color:lightgray;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.secondsectionbox {
+    width: 250px;
+    height: 240px;
+    background-color: lightgray;
+    border: solid lightgray 1px;
+    padding-left: 10px;
+    float: left;
+    font-size: 12pt;
+}
+
+.greybuttonbox {
+    display: inline-block;
+    width: 150px;
+    height: 36px;
+    background-color: grey;
+    border-radius: 2pt;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.secondsectionbox a:link {
+    color: white;
+    background-color: gray;
+    text-decoration: none;
+}
+
+.secondsectionbox a:visited {
+    color: white;
+    background-color: gray;
+}
+
+.secondsectionbox a:hover {
+    transform: scale(1.05); /* Scale up the image on hover */
+}
+
+#imgbox {
+    padding-top: 25px;
+    padding-right: 8px;
+    float: right;
+}
+
+.sectiononebox a:link {
+    color: white;
+    background-color: darkblue;
+    text-decoration: none;
+
+}
+
+.sectiononebox a:visited {
+    color: white;
+    background-color: darkblue;
+}
+
+.sectiononebox a:hover {
+    transform: scale(1.05); /* Scale up the image on hover */
+}
+
+footer h1{
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: 0;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family:Arial, Helvetica, sans-serif   
+}
+
+.footerleftbox {
+    height: 40px;
+    float: left;
+}
+
+.footerrightbox {
+    padding-right: 20px;
+    height: 40px;
+    float: right;
+}
+
+.footerrightbox img{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+footer a:link {
+    background-color:gray
+}
+
+footer a:visited {
+    color: white;
+    background-color: gray
+}
+
+footer img:hover {
+    transform: scale(1.20); /* Scale up the image on hover */
+}
